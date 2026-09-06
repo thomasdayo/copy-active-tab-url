@@ -30,14 +30,15 @@
 <summary><b>🟠 Firefox</b></summary>
 
 <br>
+この拡張機能は、Mozillaによって署名されたxpiとしてGitHub Releasesで配布しています。
 
-1. アドレスバーに `about:debugging#/runtime/this-firefox` を入力して開きます。
-2. **「一時的なアドオンを読み込む」** をクリックします。
-3. リポジトリ内の `manifest.json` を選択します。
-4. ツールバーにアイコンが追加されます。
+1. [最新のリリース](../../releases/latest)を開く
+2. Assetsから`copy-active-tab-url-x.x.x.xpi`をダウンロード
+3. Firefoxのアドオン管理画面を開く
+4. 歯車メニューから「ファイルからアドオンをインストール」を選択
+5. ダウンロードしたxpiを指定
 
-> ⚠️ 一時的なアドオンは **Firefox を再起動すると削除されます**。継続して使う場合は、署名済みの XPI が必要です。
-
+署名済みxpiは、Firefoxへインストールできます。
 </details>
 
 ---
