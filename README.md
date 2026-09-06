@@ -26,7 +26,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary><b>🟠 Firefox</b></summary>
 
 <br>
